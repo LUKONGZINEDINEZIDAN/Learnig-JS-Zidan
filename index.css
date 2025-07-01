@@ -1,0 +1,132 @@
+*{
+    margin: opx;
+    padding: opx;
+    font-family: century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1377045b-99c6-4bf6-80e8-23d3dcbb5ca8_large.webp); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 109vh;
+}
+
+u1{
+    float: right;
+    list-style-type: mone;
+    margin-top: 30px;
+    main-height:40px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul l1 a:hover{
+    background-color: #fff;
+    color:#000;   
+}
+
+ul li .activate a{
+     background-color: #fff;
+    color:#000; 
+}                                 
+
+.logo img{
+    float: left;
+    width: 150;
+    height: auto;
+}
+
+.main{
+    max-width: 120px;
+    margin:auto;
+}
+
+.title{
+    position:absolute;
+    top: 46%;
+    left: 50;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+      position:absolute;
+    top: 54%;
+    left: 50;
+    transform: translate(-50%,-50%); 
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.sub-menu{
+    display: none;
+    top:6%;
+    position: relative;
+} 
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color:rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+} 
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
