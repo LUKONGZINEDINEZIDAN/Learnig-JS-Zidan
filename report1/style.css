@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result-summary {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.result-summary h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.score-box {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.score-box span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00796b;
+}
+
+.details {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.details p {
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d40;
+}
